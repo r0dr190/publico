@@ -1,4 +1,4 @@
-Rodrigo Salas
+Rodrigo Salas https://github.com/r0dr190/publico
 Esteban Perez
 Rolando Lazcano
 Luis Felipe Gonzalez
