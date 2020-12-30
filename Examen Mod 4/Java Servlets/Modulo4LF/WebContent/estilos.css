@@ -1,0 +1,316 @@
+@charset "ISO-8859-1";
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+body{
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: darkslategrey;
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+}
+footer{
+    margin-top:25px;
+    width:100%;
+    height:100px;
+    background-color: lightseagreen;
+    
+}
+#footdatos p{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color:white;
+    
+   
+}
+
+#loginbar{
+	text-align: right;
+	font-family: sans-serif;
+	float: right;
+	color: white;
+}
+.textform{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkturquoise;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+h3{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+h4{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.menubarra ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.menubarra ul li{
+    display:inline-block;
+
+}
+.menubarra ul li a{
+    display: block;
+    padding: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkkhaki;
+    font-size: 20px;
+}
+.menubarra ul li a:hover{
+    background-color: rgb(68, 99, 68);
+}
+
+
+/*Estilos de los parrafos*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2em;
+
+    /*background-color: rgb(255, 255, 255);
+    width: 60%;
+    border: 0px;
+    padding: 50px;
+    margin: 20px;*/
+
+}
+#post1{
+    width: 100%;
+    border: 0px;
+    padding: 20px;
+    margin: top 20px;
+    margin-bottom: 20px;
+
+}
+#post1 #foto1{
+    float:right; 
+    margin-left: 20px;  
+}
+
+#post1 h4{
+    text-align: left;
+}
+
+#post2 {
+    padding-top: 100px;
+
+}
+#post2 #foto2{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#post2 h4{
+    text-align: right;
+}
+#post3{
+    padding-top: 100px;
+}
+#post3 h4{
+    text-align: left;
+}
+#post3 #foto3{
+    float: right;
+    margin-left: 20px;
+}
+
+table{
+    box-align: center;
+}
+.egt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+    
+}
+.egt table,td{
+   
+    
+    align-content: center;
+    border:1px solid gray;
+}
+/* Estilos graficos del footer*/
+
+/*Barra flotante de redes sociales*/
+.container{
+    width:95%;
+    max-width:900px;
+    padding:32px 64px;
+    margin:auto;
+}
+
+.social{
+   
+    width:48px;
+    position:fixed;
+    top:50px;
+    right:0;
+}
+.social{
+    /*border:1px solid #000;*/
+    top:50%;
+    height:150px;
+    
+    margin-top:-100px;
+}
+
+.check form{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#listacheck{
+    border: 2px;
+    background-color: rgb(35, 105, 122);
+
+}
+.listacheck{
+    list-style: none;
+    border: 2px;
+    background-color: rgb(35, 105, 122);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+#fechas{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+estilo de los campos formularios en error
+/* estilo mensajes error*/
+form.error,/*------------para cambiar los estilos de los distintos campos con error*/
+input.error,
+select.error,
+textarea.error {
+    border: 3px solid rgb(255, 0, 0);
+   background-color: rgba(255, 0, 0, 0.438);
+}
+label.error{/*------------para cambiar el estilo de los textox de error*/
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+/*Cambio estilo grupal 7 modulo3*/
+.cambioestilo1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    align-content: center;
+    border:2px solid rgb(255, 36, 255);
+    padding: 30px;
+    background-color: khaki;
+    
+}
+.cambioestilo2{
+    font-family: Verdana, sans-serif;
+    color: rgb(209, 14, 248);
+    align-content: center;
+    border:1px solid rgb(255, 0, 0);
+    padding: 50px;
+    background-color: rgb(0, 153, 255);
+}
+.cambioestilo3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    align-content: center;
+    border:4px solid rgb(255, 0, 0);
+    padding: 10px;
+    background-color: rgb(0, 153, 255);
+}
+#graficosReportes{/* estilos para html reportes*/
+    
+    padding-left: 100px;
+    margin-bottom: 200px;
+}
+/*estilos pag login evaluacion final modulo 3*/
+.submit {
+    width: 120px;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+.needsfilled {
+    background: red;
+    color: white;
+}
+
+#theform {
+    margin-top: 50px;
+    vertical-align: middle;
+
+    
+}
+#formlogin{
+   text-align: right;
+   
+   
+}
+Enviar mensaje a #general
+
+/* Para teléfonos móviles: */
+ [class*="col-"] 
+ { width: 100%; }
+
+ @media only screen and (min-width: 600px) 
+ { /* Para tabletas: */ 
+    .col-s-1 {width: 8.33%;} 
+    .col-s-2 {width: 16.66%;} 
+    .col-s-3 {width: 25%;} 
+    .col-s-4 {width: 33.33%;} 
+    .col-s-5 {width: 41.66%;} 
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;} 
+    .col-s-9 {width: 75%;} 
+    .col-s-10 {width: 83.33%;} 
+    .col-s-11 {width: 91.66%;} 
+    .col-s-12 {width: 100%;} 
+} 
+@media only screen and (min-width: 768px) {
+     /* Para equipos de escritorio: */ 
+     .col-1 {width: 8.33%;} 
+     .col-2 {width: 16.66%;} 
+     .col-3 {width: 25%;} 
+     .col-4 {width: 33.33%;} 
+     .col-5 {width: 41.66%;} 
+     .col-6 {width: 50%;} 
+     .col-7 {width: 58.33%;}
+     .col-8 {width: 66.66%;} 
+     .col-9 {width: 75%;} 
+     .col-10 {width: 83.33%;} 
+     .col-11 {width: 91.66%;} 
+     .col-12 {width: 100%;}
+}
+
